@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "dgSpecHash": "VdW3Cl7Q7QRNBHlbcAA2vfDEg3Qud9LBPO79lA2kXJT+62DnmuOhbmj2r5lU5XLBMOvb5hpJ7zbIgmF3nrvfqw==",
+  "success": true,
+  "projectFilePath": "/home/azureuser/Final-Poc/Backend/MongoDBDotNET6.csproj",
+  "expectedPackageFiles": [
+    "/home/azureuser/.nuget/packages/dnsclient/1.6.0/dnsclient.1.6.0.nupkg.sha512",
+    "/home/azureuser/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/home/azureuser/.nuget/packages/microsoft.netcore.platforms/5.0.0/microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "/home/azureuser/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/home/azureuser/.nuget/packages/microsoft.win32.registry/5.0.0/microsoft.win32.registry.5.0.0.nupkg.sha512",
+    "/home/azureuser/.nuget/packages/mongodb.bson/2.15.1/mongodb.bson.2.15.1.nupkg.sha512",
+    "/home/azureuser/.nuget/packages/mongodb.driver/2.15.1/mongodb.driver.2.15.1.nupkg.sha512",
+    "/home/azureuser/.nuget/packages/mongodb.driver.core/2.15.1/mongodb.driver.core.2.15.1.nupkg.sha512",
+    "/home/azureuser/.nuget/packages/mongodb.libmongocrypt/1.3.0/mongodb.libmongocrypt.1.3.0.nupkg.sha512",
+    "/home/azureuser/.nuget/packages/sharpcompress/0.30.1/sharpcompress.0.30.1.nupkg.sha512",
+    "/home/azureuser/.nuget/packages/swashbuckle.aspnetcore/6.3.1/swashbuckle.aspnetcore.6.3.1.nupkg.sha512",
+    "/home/azureuser/.nuget/packages/swashbuckle.aspnetcore.swagger/6.3.1/swashbuckle.aspnetcore.swagger.6.3.1.nupkg.sha512",
+    "/home/azureuser/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.3.1/swashbuckle.aspnetcore.swaggergen.6.3.1.nupkg.sha512",
+    "/home/azureuser/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.3.1/swashbuckle.aspnetcore.swaggerui.6.3.1.nupkg.sha512",
+    "/home/azureuser/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
+    "/home/azureuser/.nuget/packages/system.runtime.compilerservices.unsafe/5.0.0/system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
+    "/home/azureuser/.nuget/packages/system.security.accesscontrol/5.0.0/system.security.accesscontrol.5.0.0.nupkg.sha512",
+    "/home/azureuser/.nuget/packages/system.security.principal.windows/5.0.0/system.security.principal.windows.5.0.0.nupkg.sha512",
+    "/home/azureuser/.nuget/packages/microsoft.netcore.app.ref/6.0.30/microsoft.netcore.app.ref.6.0.30.nupkg.sha512",
+    "/home/azureuser/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.30/microsoft.aspnetcore.app.ref.6.0.30.nupkg.sha512",
+    "/home/azureuser/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.30/microsoft.netcore.app.host.linux-x64.6.0.30.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'MongoDB.Driver' 2.15.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-7j9m-j397-g4wx",
+      "libraryId": "MongoDB.Driver",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
