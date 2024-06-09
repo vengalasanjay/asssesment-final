@@ -1,7 +1,7 @@
 replicaCount: 1
 image:
-  repository: public.ecr.aws/d4b6j1n5/backend
-  tag: latest
+  repository: nexus.lifeisfun.live/repository/my-registry/angularf
+  tag: 1.0.3
   pullPolicy: Always
 containerPort: 5000
 
