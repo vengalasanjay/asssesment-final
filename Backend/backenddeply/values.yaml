@@ -10,7 +10,7 @@ service:
   type: NodePort
   port: 5000
   targetPort: 5000
-  nodePort: 32529
+  nodePort: 32000
 
   # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
