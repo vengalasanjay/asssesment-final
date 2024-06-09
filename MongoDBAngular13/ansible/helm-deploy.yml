@@ -18,4 +18,3 @@
         release_namespace: default  # Specify the namespace where the release should be installed or upgraded
         release_state: present
         force: yes
-~
