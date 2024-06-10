@@ -1,6 +1,6 @@
 ---
 - name: Copy Helm chart to Kubernetes master node
-  hosts: kube-master
+  hosts: kubernetes-master
   tasks:
     - name: Copy Helm chart directory to Kubernetes master node
       ansible.builtin.copy:
