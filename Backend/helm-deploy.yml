@@ -9,7 +9,7 @@
         remote_src: no
       delegate_to: kube-master  # Execute the task on the Kubernetes master node
 - name: Upgrade or install Helm chart
-  hosts: kube-master
+  hosts: kubernetes-master
   tasks:
     - name: Upgrade or install Helm chart
       kubernetes.core.helm:
