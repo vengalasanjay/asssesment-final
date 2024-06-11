@@ -30,5 +30,5 @@ variable "instance_type" {
 
 variable "ssh_key_name" {
   description = "SSH key pair name"
-  default     = "kubernetes-west"
+  default     = "kubernetes-west1"
 }
