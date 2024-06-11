@@ -1,21 +1,24 @@
 ---
 - name: Copy Helm chart to Kubernetes master node
-  hosts: kube-master
+  hosts: kubernetes-master
   tasks:
     - name: Copy Helm chart directory to Kubernetes master node
       ansible.builtin.copy:
-        src: /home/ubuntu/asssesment-final/MongoDBAngular13/frontenddeply
+        src: ./backenddeply
         dest: /home/ubuntu/
         remote_src: no
       delegate_to: kube-master  # Execute the task on the Kubernetes master node
 - name: Upgrade or install Helm chart
-  hosts: kube-master
+  hosts: kubernetes-master
   tasks:
     - name: Upgrade or install Helm chart
       kubernetes.core.helm:
-        name: front-end
-        chart_ref: /home/ubuntu/frontenddeply
+        name: back-end
+        chart_ref: /home/ubuntu/backenddeply
         release_namespace: default  # Specify the namespace where the release should be installed or upgraded
         release_state: present
         force: yes
+<<<<<<< HEAD:MongoDBAngular13/ansible/helm-deploy.yml
 
+=======
+>>>>>>> 19508a8f39afb7455f158e14e3397345c3bb426e:Backend/helm-deploy.yml

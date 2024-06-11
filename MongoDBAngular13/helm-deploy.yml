@@ -1,5 +1,6 @@
 ---
 - name: Copy Helm chart to Kubernetes master node
+<<<<<<< HEAD
   hosts: kube-master
   tasks:
     - name: Copy Helm chart directory to Kubernetes master node
@@ -10,6 +11,18 @@
       delegate_to: kube-master  # Execute the task on the Kubernetes master node
 - name: Upgrade or install Helm chart
   hosts: kube-master
+=======
+  hosts: kubernetes-master
+  tasks:
+    - name: Copy Helm chart directory to Kubernetes master node
+      ansible.builtin.copy:
+        src: ./frontenddeply
+        dest: /home/ubuntu/
+        remote_src: no
+      delegate_to: kubernetes-master  # Execute the task on the Kubernetes master node
+- name: Upgrade or install Helm chart
+  hosts: kubernetes-master
+>>>>>>> 19508a8f39afb7455f158e14e3397345c3bb426e
   tasks:
     - name: Upgrade or install Helm chart
       kubernetes.core.helm:
