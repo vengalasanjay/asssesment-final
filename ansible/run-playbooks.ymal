@@ -4,4 +4,4 @@
 - name: Initialaize Kubernetes Master
   import_playbook: master.yaml
 - name: Get token from master and join workers
-  import_playbook: workers.yaml
+  import_playbook: worker.yaml
