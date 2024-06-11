@@ -5,3 +5,5 @@
   import_playbook: master.yaml
 - name: Get token from master and join workers
   import_playbook: worker.yaml
+- name: install helm on master
+  import_playbook: helm.yaml
