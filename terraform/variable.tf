@@ -1,6 +1,6 @@
 variable "aws_region" {
   description = "AWS region"
-  default     = "us-east-1"
+  default     = "us-west-2"
 }
 
 variable "vpc_cidr_block" {
@@ -15,12 +15,12 @@ variable "subnet_cidr_block" {
 
 variable "subnet_availability_zone" {
   description = "Availability zone for subnet"
-  default     = "us-east-1a"
+  default     = "us-west-2a"
 }
 
 variable "ami_id" {
   description = "AMI ID for EC2 instances"
-  default     = "ami-007855ac798b5175e"
+  default     = "ami-03c983f9003cb9cd1"
 }
 
 variable "instance_type" {
@@ -30,5 +30,5 @@ variable "instance_type" {
 
 variable "ssh_key_name" {
   description = "SSH key pair name"
-  default     = "poc.keypair"
+  default     = "kubernetes-west"
 }
