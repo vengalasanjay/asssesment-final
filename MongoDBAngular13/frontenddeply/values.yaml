@@ -3,7 +3,7 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: public.ecr.aws/d4b6j1n5/frontend
+  repository: public.ecr.aws/d4b6j1n5/angularf
   tag: latest
   pullPolicy: Always
 containerPort: 80
