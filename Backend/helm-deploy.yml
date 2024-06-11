@@ -18,7 +18,3 @@
         release_namespace: default  # Specify the namespace where the release should be installed or upgraded
         release_state: present
         force: yes
-<<<<<<< HEAD:MongoDBAngular13/ansible/helm-deploy.yml
-
-=======
->>>>>>> 19508a8f39afb7455f158e14e3397345c3bb426e:Backend/helm-deploy.yml
